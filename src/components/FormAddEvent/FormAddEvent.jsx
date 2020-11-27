@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Wrapper, Content, LabelInput, Input, InputDescricao, Button } from './FormAddEvent'
+import { Wrapper, Content, LabelInput, Input, InputDescricao, Button } from './style'
 
 const FormAddEvent = () => {
 
@@ -18,6 +18,7 @@ const FormAddEvent = () => {
         setData('')
     }
 
+
     return (
         <Wrapper>
             <Content>
@@ -28,7 +29,6 @@ const FormAddEvent = () => {
                 <LabelInput display="block">Descrição: </LabelInput>
                 <InputDescricao value={descricao} type="text" placeholder="Olá" onChange={(e) => setDescricao(e.target.value)} />
                 <Button onClick={HandleEvento}>ADD</Button>
-                {console.log(evento)}
             </Content>
         </Wrapper>
     )

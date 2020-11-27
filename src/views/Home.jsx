@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
-const Home = () => {
-    return(
+import EventBoard from '../components/EventBoard/EventBoard.jsx'
+
+export default function Home () {
+
+    return (
         <>
-            <h1>Home</h1>
+            <EventBoard />
         </>
     )
 }
-
-export default Home;

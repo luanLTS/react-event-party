@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FormAddEvent from '../components/FormAddEvent/FromAddEvent'
+import FormAddEvent from '../components//FormAddEvent//FormAddEvent'
 
 const AddEventView = () => {
     return (
