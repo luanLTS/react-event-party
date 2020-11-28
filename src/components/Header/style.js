@@ -18,7 +18,7 @@ export const Button = styled.button`
     font-size: 28px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    height: 90px;
     width: 145px;
     line-height: 5px;
     background-color: rgba(0, 0, 0, 0.1);

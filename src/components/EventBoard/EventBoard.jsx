@@ -2,14 +2,14 @@ import React from 'react'
 
 import { Wrapper, Content, Topo, Titulo, Data, Descricao } from './style'
 
-const EventBoard = ({}) => {
+const EventBoard = ({ nomeEvento, data, descricao }) => {
     return (
         <Wrapper>
             <Content>
                 <Topo>
-                    <Titulo>teste</Titulo>
-                    <Data>20/12/2020</Data>
-                    <Descricao>festa teste</Descricao>
+                    <Titulo>{nomeEvento}</Titulo>
+                    <Data>{data}</Data>
+                    <Descricao>{descricao}</Descricao>
                 </Topo>
             </Content>
         </Wrapper>

@@ -21,7 +21,6 @@ ReactDOM.render(
           <AddEvent />
         </Route>
       </Switch>
-      {/* <App /> */}
       <GlobalStyle />
     </BrowserRouter>
   </React.StrictMode>,

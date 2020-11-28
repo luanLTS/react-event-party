@@ -35,7 +35,7 @@ export const InputDescricao = styled.textarea`
 `
 
 export const Button = styled.button`
-    display: block;
+    display: inline;
     outline: none;
     margin: 20px 0px;
     width: 100px;
@@ -46,4 +46,5 @@ export const Button = styled.button`
     cursor: pointer;
     font-size: 16px;
     color: #fff;
+    text-decoration: none;
 `
